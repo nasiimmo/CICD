@@ -20,15 +20,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
-
-      - name: Show workspace
-        run: |
-          pwd
-          ls -la
-          ls -la devops-learning || true
-          ls -la devops-learning/cicd || true
-          ls -la devops-learning/cicd/task1 || true
 
       - name: Install dependencies
         run: cd task1 && npm ci
