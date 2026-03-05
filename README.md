@@ -18,7 +18,7 @@ Built a CI pipeline to automatically run checks on every push and pull request.
 
 ## Task 2: Continuous Deployment (CD)
 
-Built a CD workflow to deploy applications automatically or update environments.
+Built a CD workflow to deploy applications automatically.
 
 ### Pipeline Includes:
 - Build and push Docker images
