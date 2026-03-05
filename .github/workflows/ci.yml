@@ -21,7 +21,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          registry="nasiimmo"
+          registry="nasiim04"
           sha=$(git rev-parse --short HEA)
           primary_tag="${registry}/task2:${sha}"
 
